@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document for analog specific formatting */
+
+.clock-container {  
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    /* border: 3px solid green; */
+}
+
+.clock {
+    position: relative;
+    /* border: 3px solid green; */
+}
+img.clock {
+    width: 50%;
+    height:auto;
+}
+
+.clock:after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hands {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*Day Date Container*/
+
+#text-section {
+   width: 100%;
+   margin-left: 25px;
+   margin-top: 45px;
+   height: fit-content;
+   color: #ffffff;
+   text-align: left;
+   font-size: 1.25em;
+   /* border: 2px solid purple; */
+}
+
+.today-container {
+    margin-top: 15px;
+}
+
+
+
+#today {
+    margin: auto;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.25em;
+    border: none;
+    width: 100%;
+}
+
+.utc-container {
+    margin-top: 5px;
+}
+
+#utc {
+    background-color: transparent;
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.25em;
+    border: none;
+    width: 100%;
+}
+
+.china-container {
+    padding-top: 5px;
+}
+
+#china {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    text-align: left;
+    font-size: 1.35em;
+    width: 100%;
+}
+
+.lunar-container {
+    padding-top: 5px;
+    width: 700px;
+}
+
+#lunar {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    width: 700px
+}
