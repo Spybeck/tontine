@@ -33,27 +33,75 @@ body {
         /* border: 3px solid green; */
     }
 
+    #text-section {
+        font-size: 1.5em;
+    }
+
     #moon-image {
-        margin-top: 40px !important;
-    }   
+        margin-top: 40px;
+    }
+    
+    #moon-image img {
+        width:150px;
+        height:150px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        /* border: 3px solid green; */
+    }
 
+    #text-section {
+        font-size: 2.0em;
+    }
+
+    #moon-image {
+        margin-top: 40px;
+    }
+    
+    #moon-image img {
+        width:150px;
+        height:150px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    #text-section {
+        font-size: 1.25em;
+    }
+    
+    #moon-image img {
+        width:100px;
+        height:100px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    #text-section {
+        font-size: 1.25em;
+    }
+    
+    #moon-image img {
+        width:100px;
+        height:100px;
+    }
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    #text-section {
+        font-size: 1.25em;
+    }
     
+    #moon-image img {
+        width:100px;
+        height:100px;
+    }
 }

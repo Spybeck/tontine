@@ -44,8 +44,6 @@ img.clock {
    height: fit-content;
    color: #ffffff;
    text-align: left;
-   font-size: 1.25em;
-   /* border: 2px solid purple; */
 }
 
 .today-container {

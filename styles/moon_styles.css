@@ -25,12 +25,6 @@
     /* border: 3px solid red; */
 }
 
-#moon-image img {
-    width:100px;
-    height:100px;
-}
-
-
  #moon-error {
     color: rgb(255, 165, 0);
     padding-bottom: 10px;
